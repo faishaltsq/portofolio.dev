@@ -3,11 +3,76 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-rgb: 245, 230, 200;
+  --background: 38 63% 89%;
+  --foreground: 0 0% 10%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 10%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 10%;
+  --primary: 358 34% 57%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 207 30% 42%;
+  --secondary-foreground: 0 0% 100%;
+  --muted: 38 36% 75%;
+  --muted-foreground: 0 0% 33%;
+  --accent: 43 100% 68%;
+  --accent-foreground: 0 0% 10%;
+  --destructive: 358 34% 57%;
+  --destructive-foreground: 0 0% 100%;
+  --border: 0 0% 20%;
+  --input: 0 0% 100%;
+  --ring: 207 30% 42%;
+  --radius: 0rem;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgb(var(--background-rgb));
+  color: hsl(var(--foreground));
+  background-color: hsl(var(--background));
+  background-image: repeating-linear-gradient(
+      0deg,
+      rgba(42, 42, 42, 0.03) 0px,
+      rgba(42, 42, 42, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(42, 42, 42, 0.03) 0px,
+      rgba(42, 42, 42, 0.03) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  background-attachment: fixed;
+}
+
+.retro-hover {
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.retro-hover:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0 hsl(var(--foreground));
+}
+
+.retro-hover:active {
+  transform: translate(0, 0);
+  box-shadow: none;
+}
+
+.retro-button-hover {
+  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+}
+
+.retro-button-hover:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 6px 6px 0 hsl(var(--foreground));
+}
+
+.retro-button-hover:active {
+  transform: translate(0, 0);
+  box-shadow: none;
 }

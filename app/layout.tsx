@@ -13,8 +13,9 @@ const geistMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Faishal Tsaqief | QA Engineer",
-  description: "QA Engineer portfolio focused on manual testing, API testing, mobile QA, and automation.",
+  title: "Muhammad Faishal Tsaqief - Quality Engineer",
+  description:
+    "Quality Engineer portfolio focused on Playwright automation, API testing, product quality, and engineering collaboration.",
   icons: "pixel-laptop.svg",
   
 };
