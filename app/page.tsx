@@ -17,7 +17,6 @@ import {
   Mail,
   Globe,
 } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 export default function Portfolio() {
   const aboutRef = useRef<HTMLElement>(null);
@@ -35,7 +34,7 @@ export default function Portfolio() {
       <header className="fixed top-0 w-full bg-[#333333] text-[#f5e6c8] z-50 border-b-4 border-[#ff6b6b] px-4 py-3">
         <div className="container mx-auto flex justify-between items-center">
           <h1 className="text-xl md:text-2xl font-bold tracking-wider">
-            Portfolio
+            QA Portfolio
           </h1>
           <nav className="hidden md:flex space-x-6">
             <button
@@ -48,19 +47,19 @@ export default function Portfolio() {
               onClick={() => scrollToSection(webRef)}
               className="hover:text-[#ff6b6b] transition-colors"
             >
-              WEB
+              QA
             </button>
             <button
               onClick={() => scrollToSection(mobileRef)}
               className="hover:text-[#ff6b6b] transition-colors"
             >
-              MOBILE
+              MOBILE QA
             </button>
             <button
               onClick={() => scrollToSection(iotRef)}
               className="hover:text-[#ff6b6b] transition-colors"
             >
-              IOT
+              AUTOMATION
             </button>
           </nav>
         </div>
@@ -89,16 +88,16 @@ export default function Portfolio() {
             className="max-w-3xl"
           >
             <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-              PORTFOLIO 2.0
+              QA PORTFOLIO
             </div>
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              FULL-STACK
+              QA
               <br />
-              DEVELOPER<span className="text-[#ff6b6b]">_</span>
+              ENGINEER<span className="text-[#ff6b6b]">_</span>
             </h1>
             <p className="text-lg md:text-xl mb-8 leading-relaxed">
-              Building digital experiences with a touch of nostalgia.
-              Specializing in web, mobile, and IoT development.
+              Testing web and mobile products with a risk-based mindset.
+              Focused on test cases, bug analysis, API validation, and automation.
             </p>
     
           </motion.div>
@@ -147,15 +146,13 @@ export default function Portfolio() {
               </h2>
               <div className="space-y-4 mb-8">
                 <p>
-                  Hello my name is Faishal, I am an enthusiastic and eager-to-learn Informatics student
-                  with strong skills in programming and application development.
-                  Proficient in Python, JavaScript, and Flutter, with hands-on
-                  experience in building mobile applications, websites, and IoT
-                  integrations. Actively involved in academic projects and
-                  internships, I am accustomed to working in teams, solving
-                  problems, and adapting quickly. I am ready to contribute fresh
-                  ideas and a passion for growth in the dynamic world of
-                  technology.
+                  Hello, my name is Faishal. I am an Informatics student focused
+                  on Quality Assurance, software testing, and product quality.
+                  I enjoy breaking down requirements into clear test scenarios,
+                  finding edge cases, documenting defects, and helping teams ship
+                  more stable web and mobile applications. My programming
+                  background in Python, JavaScript, and Flutter helps me
+                  understand how systems work and build practical test automation.
                 </p>
               </div>
 
@@ -204,7 +201,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Web Programming Section */}
+      {/* QA Testing Section */}
       <section
         ref={webRef}
         className="py-16 md:py-24 px-4 bg-[#f5e6c8] text-[#333333] relative overflow-hidden"
@@ -226,21 +223,21 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                Intermediate
+                Manual & API Testing
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                WEB PROGRAMMING<span className="text-[#ff6b6b]">_</span>
+                QUALITY ASSURANCE<span className="text-[#ff6b6b]">_</span>
               </h2>
               <div className="space-y-4 mb-8">
                 <p>
-                  I build modern, responsive web applications using the latest
-                  technologies and best practices. My focus is on creating fast,
-                  accessible, and user-friendly experiences.
+                  I design test scenarios from requirements, validate core user
+                  flows, and report bugs with clear reproduction steps, expected
+                  results, actual results, severity, and evidence.
                 </p>
                 <p>
-                  From static sites to complex web applications, I handle the
-                  full development lifecycle with attention to detail and
-                  performance optimization.
+                  My QA approach covers functional testing, regression testing,
+                  exploratory testing, API validation, and basic database checks
+                  to reduce release risk.
                 </p>
               </div>
 
@@ -249,25 +246,25 @@ export default function Portfolio() {
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Code size={24} />
                   </div>
-                  <span className="font-bold">HTML/CSS/JS</span>
+                  <span className="font-bold">Test Cases</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Code size={24} />
                   </div>
-                  <span className="font-bold">Vue/Next.js</span>
+                  <span className="font-bold">Bug Reports</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Code size={24} />
                   </div>
-                  <span className="font-bold">Node.js</span>
+                  <span className="font-bold">API Testing</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Globe size={24} />
                   </div>
-                  <span className="font-bold">Full-Stack</span>
+                  <span className="font-bold">Regression</span>
                 </div>
               </div>
             </div>
@@ -280,34 +277,21 @@ export default function Portfolio() {
                     <div className="w-3 h-3 rounded-full bg-[#ff6b6b]"></div>
                     <div className="w-3 h-3 rounded-full bg-[#ffcc5c]"></div>
                     <div className="w-3 h-3 rounded-full bg-[#88d8b0]"></div>
-                    <span className="ml-2 text-xs opacity-70">index.html</span>
+                    <span className="ml-2 text-xs opacity-70">test-case.md</span>
                   </div>
                   <pre className="overflow-x-auto">
                     <code>
-                      {`<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1>Welcome to my portfolio</h1>
-    <nav>
-      <!-- Navigation links -->
-    </nav>
-  </header>
-  
-  <main>
-    <section id="projects">
-      <!-- Project showcase -->
-    </section>
-  </main>
+                      {`Feature: Login
 
-  <script src="script.js"></script>
-</body>
-</html>`}
+Scenario: User logs in with valid account
+Given user opens login page
+When user enters valid email and password
+And user clicks Login
+Then dashboard page is displayed
+
+Negative case:
+- Empty password shows validation message
+- Invalid credential shows error alert`}
                     </code>
                   </pre>
                 </div>
@@ -317,7 +301,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* Mobile Development Section */}
+      {/* Mobile QA Section */}
       <section
         ref={mobileRef}
         className="py-16 md:py-24 px-4 bg-[#4a6b8a] text-[#f5e6c8]"
@@ -326,20 +310,21 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row-reverse gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                Intermediate
+                Android & Cross-Platform
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                MOBILE DEVELOPMENT<span className="text-[#ff6b6b]">_</span>
+                MOBILE APP TESTING<span className="text-[#ff6b6b]">_</span>
               </h2>
               <div className="space-y-4 mb-8">
                 <p>
-                  I create native and cross-platform mobile applications that
-                  deliver exceptional user experiences Android
-                  devices.
+                  I test Android and cross-platform mobile apps across key user
+                  journeys, screen states, input validation, permissions, and
+                  network conditions.
                 </p>
                 <p>
-                  My mobile development approach focuses on performance, offline
-                  capabilities, and intuitive interfaces that users love.
+                  My mobile QA checklist covers install/update flow, offline
+                  behavior, responsive layout, crash observation, usability, and
+                  regression after fixes.
                 </p>
               </div>
 
@@ -348,13 +333,13 @@ export default function Portfolio() {
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Smartphone size={24} />
                   </div>
-                  <span className="font-bold">Flutter</span>
+                  <span className="font-bold">Android QA</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#333333] text-[#f5e6c8] rounded-full">
                     <Smartphone size={24} />
                   </div>
-                  <span className="font-bold">Android/Kotlin</span>
+                  <span className="font-bold">Flutter Apps</span>
                 </div>
               </div>
             </div>
@@ -367,7 +352,7 @@ export default function Portfolio() {
                     <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/3 h-6 bg-[#333333] rounded-b-lg z-10"></div>
                     <div className="w-full h-full bg-[#f5e6c8] rounded-[28px] overflow-hidden relative">
                       <div className="w-full h-[60px] bg-[#ff6b6b] flex items-center justify-center">
-                        <h3 className="text-[#f5e6c8] font-bold">MY APP</h3>
+                        <h3 className="text-[#f5e6c8] font-bold">QA CHECK</h3>
                       </div>
                       <div className="p-4">
                         <div className="w-full h-[100px] bg-[#333333] rounded-lg mb-4"></div>
@@ -398,7 +383,7 @@ export default function Portfolio() {
         </div>
       </section>
 
-      {/* IoT Section */}
+      {/* Automation Section */}
       <section
         ref={iotRef}
         className="py-16 md:py-24 px-4 bg-[#2a2a2a] text-[#f5e6c8]"
@@ -407,21 +392,21 @@ export default function Portfolio() {
           <div className="flex flex-col md:flex-row gap-12 items-center">
             <div className="md:w-1/2">
               <div className="inline-block bg-[#ff6b6b] text-[#f5e6c8] px-3 py-1 mb-4 text-sm">
-                Intermediate
+                Automation & Technical QA
               </div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                IOT DEVELOPMENT<span className="text-[#ff6b6b]">_</span>
+                TEST AUTOMATION<span className="text-[#ff6b6b]">_</span>
               </h2>
               <div className="space-y-4 mb-8">
                 <p>
-                  I build connected devices and IoT solutions using ESP32 and
-                  other microcontrollers, creating smart systems that bridge the
-                  physical and digital worlds.
+                  I use programming skills to support repeatable QA work,
+                  including UI automation, API checks, test data preparation,
+                  and simple scripts for validation.
                 </p>
                 <p>
-                  My IoT projects range from home automation to industrial
-                  monitoring systems, with a focus on reliability, security, and
-                  ease of use.
+                  I am comfortable reading logs, checking integrations, and
+                  validating IoT-related flows where hardware, sensors, and
+                  applications need to work together reliably.
                 </p>
               </div>
 
@@ -430,25 +415,25 @@ export default function Portfolio() {
                   <div className="w-12 h-12 flex items-center justify-center bg-[#ff6b6b] text-[#f5e6c8] rounded-full">
                     <Cpu size={24} />
                   </div>
-                  <span className="font-bold">ESP32</span>
+                  <span className="font-bold">Playwright</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#ff6b6b] text-[#f5e6c8] rounded-full">
                     <Cpu size={24} />
                   </div>
-                  <span className="font-bold">Arduino</span>
+                  <span className="font-bold">Postman</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#ff6b6b] text-[#f5e6c8] rounded-full">
                     <Cpu size={24} />
                   </div>
-                  <span className="font-bold">MQTT</span>
+                  <span className="font-bold">JavaScript</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 flex items-center justify-center bg-[#ff6b6b] text-[#f5e6c8] rounded-full">
                     <Cpu size={24} />
                   </div>
-                  <span className="font-bold">Sensors</span>
+                  <span className="font-bold">Python</span>
                 </div>
               </div>
             </div>
@@ -460,7 +445,7 @@ export default function Portfolio() {
                   <div className="bg-[#111111] p-4 rounded-lg mb-4">
                     <div className="flex justify-between items-center mb-4">
                       <h3 className="text-[#ff6b6b] font-bold">
-                        ESP32 DASHBOARD
+                        QA DASHBOARD
                       </h3>
                       <div className="w-3 h-3 rounded-full bg-[#88d8b0] animate-pulse"></div>
                     </div>
@@ -468,9 +453,9 @@ export default function Portfolio() {
                     <div className="grid grid-cols-2 gap-4 mb-4">
                       <div className="bg-[#222222] p-3 rounded-lg">
                         <div className="text-xs text-[#f5e6c8]/60 mb-1">
-                          TEMPERATURE
+                          PASSED TESTS
                         </div>
-                        <div className="text-2xl font-bold">24.5°C</div>
+                        <div className="text-2xl font-bold">86%</div>
                         <div className="w-full bg-[#333333] h-2 rounded-full mt-2">
                           <div
                             className="bg-[#ff6b6b] h-2 rounded-full"
@@ -480,7 +465,7 @@ export default function Portfolio() {
                       </div>
                       <div className="bg-[#222222] p-3 rounded-lg">
                         <div className="text-xs text-[#f5e6c8]/60 mb-1">
-                          HUMIDITY
+                          COVERAGE
                         </div>
                         <div className="text-2xl font-bold">68%</div>
                         <div className="w-full bg-[#333333] h-2 rounded-full mt-2">
@@ -496,9 +481,9 @@ export default function Portfolio() {
                       <div className="flex justify-between items-center">
                         <div>
                           <div className="text-xs text-[#f5e6c8]/60 mb-1">
-                            SYSTEM STATUS
+                            RELEASE STATUS
                           </div>
-                          <div className="text-lg font-bold">ONLINE</div>
+                          <div className="text-lg font-bold">READY</div>
                         </div>
                         <Cpu size={24} className="text-[#ff6b6b]" />
                       </div>
@@ -509,7 +494,7 @@ export default function Portfolio() {
                     <div className="flex items-center gap-2">
                       <div className="w-3 h-3 rounded-full bg-[#ff6b6b] animate-pulse"></div>
                       <div className="text-xs font-mono text-[#f5e6c8]/60">
-                        ESP32-DEVKIT-V1
+                        AUTOMATION-SUITE
                       </div>
                     </div>
                   </div>

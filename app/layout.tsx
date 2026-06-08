@@ -13,8 +13,8 @@ const geistMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "64BIT.DEV",
-  description: "Personal Website",
+  title: "Faishal Tsaqief | QA Engineer",
+  description: "QA Engineer portfolio focused on manual testing, API testing, mobile QA, and automation.",
   icons: "pixel-laptop.svg",
   
 };
