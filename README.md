@@ -1,3 +1,5 @@
-Link Website
+faishaltsq.dev
 
-https://faishaltsq-portfolio.vercel.app/
+Personal portfolio for Muhammad Faishal Tsaqief, focused on product quality, test automation, and engineering collaboration.
+
+Planned domain: https://faishaltsq.dev
