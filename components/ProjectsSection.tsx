@@ -8,6 +8,7 @@ export function ProjectsSection() {
         "AI-powered web automation script generator that converts a target URL and natural language objective into runnable automation scripts.",
       tech: "Next.js 14, React, Playwright, OpenAI SDK, Gemini API, Anthropic SDK, CSS Modules",
       href: "https://github.com/faishaltsq/Web-Weave",
+      demoHref: "https://web-weave-lake.vercel.app",
     },
     {
       name: "Web QA Automation",
@@ -58,18 +59,32 @@ export function ProjectsSection() {
                 <p className="mb-4 text-sm font-light leading-relaxed text-foreground md:text-base">
                   {project.description}
                 </p>
-                {project.href && (
-                  <a
-                    href={project.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={`retro-button-hover mb-4 inline-block border-2 border-foreground px-4 py-2 font-mono text-xs font-bold text-white ${
-                      isPrimary ? "bg-primary" : "bg-secondary"
-                    }`}
-                  >
-                    View Repository
-                  </a>
-                )}
+                <div className="mb-4 flex gap-3">
+                  {project.href && (
+                    <a
+                      href={project.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`retro-button-hover inline-block border-2 border-foreground px-4 py-2 font-mono text-xs font-bold text-white ${
+                        isPrimary ? "bg-primary" : "bg-secondary"
+                      }`}
+                    >
+                      View Repository
+                    </a>
+                  )}
+                  {project.demoHref && (
+                    <a
+                      href={project.demoHref}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className={`retro-button-hover inline-block border-2 border-foreground px-4 py-2 font-mono text-xs font-bold text-white ${
+                        isPrimary ? "bg-secondary" : "bg-primary"
+                      }`}
+                    >
+                      Live Demo
+                    </a>
+                  )}
+                </div>
                 <div className="border-t-2 border-muted pt-4">
                   <div
                     className={`mb-2 font-mono text-xs font-bold ${
