@@ -30,7 +30,6 @@ export function ProfileSection() {
       value: "Bachelor of Informatics",
       detail: "Graduated",
     },
-    { label: "Location", value: "Yogyakarta, Indonesia" },
     { label: "Languages", value: "Indonesian, English B1-B2" },
     { label: "Tools", value: "JIRA, Confluence, GitHub, Postman" },
   ];
@@ -51,12 +50,12 @@ export function ProfileSection() {
                 automation, and practical defect analysis.
               </h3>
               <p className="text-base leading-relaxed text-foreground md:text-lg">
-                I am Muhammad Faishal Tsaqief, a Quality Engineer based in
-                Yogyakarta dedicated to software reliability, test automation,
-                and systematic defect analysis. With hands-on experience
-                validating product-critical web and mobile workflows, I
-                specialize in exploratory and automated testing, structured
-                defect documentation, and helping teams ship with confidence.
+                I am Muhammad Faishal Tsaqief, a Quality Engineer dedicated to
+                software reliability, test automation, and systematic defect
+                analysis. With hands-on experience validating product-critical
+                web and mobile workflows, I specialize in exploratory and
+                automated testing, structured defect documentation, and helping
+                teams ship with confidence.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
                 My technical foundation in Vue.js, Next.js, React, JavaScript,

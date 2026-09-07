@@ -15,7 +15,6 @@ export function ContactSection() {
       value: "Muhammad Faishal Tsaqief",
       href: "https://www.linkedin.com/in/muhammad-faishal-tsaqief-7775b3248/",
     },
-    { label: "Location", value: "Yogyakarta, Indonesia" },
   ];
 
   return (
