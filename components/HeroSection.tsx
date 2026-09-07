@@ -16,9 +16,9 @@ export function HeroSection() {
           </h1>
 
           <p className="mx-auto mb-8 max-w-2xl text-center text-lg font-light leading-relaxed text-foreground md:text-xl">
-            Final-year Informatics student building release confidence through
-            structured testing, Playwright automation, API validation, and sharp
-            defect analysis.
+            Quality Engineer building release confidence through structured
+            testing, Playwright automation, API validation, and sharp defect
+            analysis.
           </p>
 
           <div className="flex flex-col justify-center gap-4 sm:flex-row">

@@ -27,8 +27,8 @@ export function ProfileSection() {
   const infoCards = [
     {
       label: "Education",
-      value: "Informatics, Universitas Teknologi Yogyakarta",
-      detail: "Expected 2026",
+      value: "Bachelor of Informatics",
+      detail: "Graduated",
     },
     { label: "Location", value: "Yogyakarta, Indonesia" },
     { label: "Languages", value: "Indonesian, English B1-B2" },
@@ -47,22 +47,22 @@ export function ProfileSection() {
                 Recent Signal
               </div>
               <h3 className="font-mono text-2xl font-bold leading-tight text-foreground md:text-3xl">
-                Quality-minded Informatics student with hands-on release
-                validation experience.
+                Quality Engineer focused on release confidence, robust
+                automation, and practical defect analysis.
               </h3>
               <p className="text-base leading-relaxed text-foreground md:text-lg">
-                I am Muhammad Faishal Tsaqief, a final-year Informatics student
-                from Yogyakarta focused on software quality, automation, and
-                practical defect analysis. During my QA Engineer Internship at
-                Deall Jobs, I tested product-critical web and mobile workflows,
-                documented findings in JIRA and Confluence, and helped teams make
-                clearer release decisions.
+                I am Muhammad Faishal Tsaqief, a Quality Engineer based in
+                Yogyakarta dedicated to software reliability, test automation,
+                and systematic defect analysis. With hands-on experience
+                validating product-critical web and mobile workflows, I
+                specialize in exploratory and automated testing, structured
+                defect documentation, and helping teams ship with confidence.
               </p>
               <p className="text-base leading-relaxed text-muted-foreground md:text-lg">
-                My background in Vue.js, Next.js, React, JavaScript, and Python
-                gives me enough engineering context to read product behavior,
-                discuss implementation details, and build automation that fits
-                real team workflows.
+                My technical foundation in Vue.js, Next.js, React, JavaScript,
+                and Python provides strong engineering context to read system
+                behavior, collaborate closely with developers, and design
+                automation that fits real delivery pipelines.
               </p>
             </TerminalCard>
 
