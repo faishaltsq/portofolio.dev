@@ -26,24 +26,7 @@ export function ProjectsSection() {
       tech: "Next.js, Playwright, Jenkins, Docker",
       href: "https://github.com/faishaltsq/Web-QA-Automation",
     },
-    {
-      name: "Research Consultant Website",
-      description:
-        "Professional website for a research consultancy firm with service pages, contact form handling, and content management capability.",
-      tech: "Next.js",
-    },
-    {
-      name: "IoT System 3D Model Control & Visualization",
-      description:
-        "Real-time ESP32-S3 and MPU-6050 sensor visualization system with MQTT and WebSocket latency comparison.",
-      tech: "ESP32-S3, MQTT, WebSocket, MPU-6050",
-    },
-    {
-      name: "Grocery Store POS Application",
-      description:
-        "Web-based point-of-sale system for small grocery retailers with transaction, inventory, and sales reporting features.",
-      tech: "Next.js",
-    },
+
   ];
 
   return (
