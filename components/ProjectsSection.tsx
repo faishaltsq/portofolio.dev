@@ -3,6 +3,14 @@ import { SectionTitle } from "./TerminalCard";
 export function ProjectsSection() {
   const projects = [
     {
+      name: "Dompet Bareng",
+      description:
+        "Family & group finance app with shared wallets, role-based access, real-time notifications, category budgeting, and an AI-powered otter mascot that tracks spending mood and parses expenses from chat.",
+      tech: "Expo SDK 57, React Native, TypeScript, Supabase (PostgreSQL, Auth, RLS, Realtime, Storage), Gemini AI",
+      href: "https://github.com/faishaltsq/dompet-bareng",
+      status: "In Progress",
+    },
+    {
       name: "WebWeave",
       description:
         "AI-powered web automation script generator that converts a target URL and natural language objective into runnable automation scripts.",
@@ -53,9 +61,16 @@ export function ProjectsSection() {
                   isPrimary ? "border-primary" : "border-secondary"
                 }`}
               >
-                <h3 className="mb-3 font-mono text-xl font-bold text-foreground">
-                  {project.name}
-                </h3>
+                <div className="mb-3 flex items-center justify-between">
+                  <h3 className="font-mono text-xl font-bold text-foreground">
+                    {project.name}
+                  </h3>
+                  {project.status && (
+                    <span className="border border-secondary bg-secondary/10 px-2 py-0.5 font-mono text-[10px] font-bold uppercase tracking-wider text-secondary">
+                      {project.status}
+                    </span>
+                  )}
+                </div>
                 <p className="mb-4 text-sm font-light leading-relaxed text-foreground md:text-base">
                   {project.description}
                 </p>
