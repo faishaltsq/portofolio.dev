@@ -26,6 +26,13 @@ export function ProjectsSection() {
       tech: "Next.js, Playwright, Jenkins, Docker",
       href: "https://github.com/faishaltsq/Web-QA-Automation",
     },
+    {
+      name: "Virtual Assistant NAKES",
+      description:
+        "Hospital health worker management system covering credentialing, OPPE evaluation, clinical quality tracking, ethics & disciplinary records, meeting secretariat, and audit logging.",
+      tech: "Django 5, Python, PostgreSQL, Bootstrap 5, WhiteNoise, Gunicorn",
+      href: "https://github.com/faishaltsq/sim-ktkl",
+    },
 
   ];
 
