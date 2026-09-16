@@ -28,8 +28,8 @@ export function ProfileSection() {
   const infoCards = [
     {
       label: "Education",
-      value: "Bachelor of Informatics",
-      detail: "Graduated",
+      value: "Bachelor of Informatics — Universitas Teknologi Yogyakarta",
+      detail: "GPA 3.54 · Graduated",
     },
     { label: "Languages", value: "Indonesian, English B1-B2" },
     { label: "Tools", value: "JIRA, Confluence, GitHub, Postman" },
