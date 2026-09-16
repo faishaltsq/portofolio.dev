@@ -32,6 +32,7 @@ export function ProjectsSection() {
         "Hospital health worker management system covering credentialing, OPPE evaluation, clinical quality tracking, ethics & disciplinary records, meeting secretariat, and audit logging.",
       tech: "Django 5, Python, PostgreSQL, Bootstrap 5, WhiteNoise, Gunicorn",
       href: "https://github.com/faishaltsq/sim-ktkl",
+      demoHref: "https://sim-ktkl-production.up.railway.app/",
     },
 
   ];
