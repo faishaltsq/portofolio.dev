@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { SectionTitle, TerminalCard } from "./TerminalCard";
 
 export function ProfileSection() {
@@ -93,6 +94,20 @@ export function ProfileSection() {
           </div>
 
           <div className="space-y-4">
+            <div className="retro-hover border-4 border-foreground bg-white p-4">
+              <div className="relative aspect-square w-full overflow-hidden border-2 border-foreground bg-muted">
+                <Image
+                  src="https://avatars.githubusercontent.com/faishaltsq"
+                  alt="Muhammad Faishal Tsaqief"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+              <div className="mt-3 text-center font-mono text-xs font-bold text-muted-foreground">
+                @faishaltsq
+              </div>
+            </div>
+
             {infoCards.map((card, index) => {
               const isPrimary = index % 2 === 0;
 
