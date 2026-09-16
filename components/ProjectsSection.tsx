@@ -8,6 +8,7 @@ export function ProjectsSection() {
         "Family & group finance app with shared wallets, role-based access, real-time notifications, category budgeting, and an AI-powered otter mascot that tracks spending mood and parses expenses from chat.",
       tech: "Expo SDK 57, React Native, TypeScript, Supabase (PostgreSQL, Auth, RLS, Realtime, Storage), Gemini AI",
       href: "https://github.com/faishaltsq/dompet-bareng",
+      demoHref: "https://dompet-bareng.vercel.app/",
       status: "In Progress",
     },
     {
